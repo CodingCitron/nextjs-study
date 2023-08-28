@@ -1,0 +1,1 @@
+### [NextJS의 역할](https://wikidocs.net/197523)
