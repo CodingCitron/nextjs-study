@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.app-header {
+    height: 60px;
+}
+
+.app-header .inner {
+    @apply mx-auto flex items-center justify-between w-[1280px]
+}
+
+.horizontal {
+    @apply flex
+}
+
+.app-header .menu {
+
+}

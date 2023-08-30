@@ -1,0 +1,16 @@
+{
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES6",
+        "lib": ["ES6", "ES2017"],
+        "strict": true,
+        "module": "CommonJS",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+    },
+    "ts-node": {
+        "files": true
+    },
+}
