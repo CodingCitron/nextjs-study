@@ -2,18 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --main: #222831;
+}
+
+body {
+    font-size: 14px;
+}
+
 .app-header {
-    height: 60px;
+    @apply h-[60px] border-b border-[var(--main)]
 }
 
 .app-header .inner {
-    @apply mx-auto flex items-center justify-between w-[1280px]
+    @apply mx-auto flex items-center justify-between w-[1280px] h-full
 }
 
-.horizontal {
-    @apply flex
+.header-item {
+    @apply flex items-center h-full
 }
 
-.app-header .menu {
+.header-item li,
+.header-item a {
+    @apply flex items-center h-full
+}
 
+.header-center,
+.header-right {
+    @apply gap-2
 }

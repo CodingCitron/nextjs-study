@@ -7,7 +7,10 @@ npm i --save @emotion/styled
 - 이모션을 사용하려고 했는데 에러가 많이 발생한다.
 
 ## styled-component
-```
+```shell
+npm i styled-components
+npm i styled-reset
+npm i @next/bundle-analyzer
 ```
 
 ## antd

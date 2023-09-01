@@ -6,17 +6,17 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
     <>
         <header className='app-header'>
             <div className='inner'>
-                <div className='logo-area'>
-                
+                <div className='header-left header-item'>
+                    <h1>
+                        <Link href="/">LOGO</Link>
+                    </h1>
                 </div>
-                <nav className='menu'>
-                    <ul className='horizontal'>
-                        <li>
-                            <Link href='/home'>홈</Link>
-                        </li>
-                    </ul>
-                </nav>
-                <ul className='horizontal'>
+                <ul className='header-center header-item'>
+                    <li>
+                        <Link href='/home'>고민 상담 게시판</Link>
+                    </li>
+                </ul>
+                <ul className='header-right header-item'>
                     <li>
                         <Link href='/signin'>로그인</Link>
                     </li>
